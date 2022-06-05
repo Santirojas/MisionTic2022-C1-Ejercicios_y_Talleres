@@ -7,6 +7,7 @@ def CDT(usuario:str,capital:int,tiempo:int):
         valor_total=(valor_interes+capital)
     mensaje=f'Para el usuario {usuario} La cantidad de dinero a recibir, según el monto inicial {capital} para un tiempo de {tiempo} meses es: {valor_total}'
     return mensaje
+
 usuario1=str('AB1012')
 monto1=int(1000000)
 tiempo1=int(3)

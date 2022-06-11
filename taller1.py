@@ -40,3 +40,18 @@ latas_persona=total_latas//personas
 total_consumido=latas_persona*personas
 sobran=total_latas-total_consumido
 print(sobran)
+
+## Ejercicio 5: ¿Cuánto te ha costado el ordenador?
+# El videojuego en el ordenador está viviendo una nueva época de oro con un montón de juegos exclusivos. Para comprarte un PC Gamer deberás fijarte principalmente en el procesador, la tarjeta gráfica, la memoria RAM... pero sobre todo en los accesorios como el teclado y ratón.
+# Estás interesado en comprarte un nuevo PC y en la tienda de tu barrio cuesta 660€ con todos los accesorios incluidos. Sin embargo, el vendedor te descuenta el 10% por pronto pago ¿Cuánto tienes que pagar en total por el ordenador con todos los accesorios?
+Precio_original=660
+Precio_final=Precio_original-Precio_original*0.1
+print(Precio_final)
+
+
+## Ejercicio 6: ¿Qué precio tenían antes del descuento?
+# En España, las rebajas de invierno suelen comenzar entre los días 1 y 7 de enero y finalizan a final de marzo. Por otro lado, las rebajas de verano empiezan durante la primera semana del mes de julio y finalizan durante el mes de septiembre.
+# Para aprovechar la temporada de rebajas he salido de compras. He pagado 34€ por unos pantalones que tenían un descuento del 15%. ¿Qué precio tenían antes de aplicar el descuento?
+precio_pantalones=34
+precio_sindescuento_pantalones=precio_pantalones+precio_pantalones*0.15
+print(precio_sindescuento_pantalones)
